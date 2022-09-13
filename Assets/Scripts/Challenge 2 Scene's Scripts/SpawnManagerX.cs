@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnManagerX : MonoBehaviour
 {
-    public GameObject[] ballPrefabs;
+    [SerializeField] GameObject[] ballPrefabs;
 
     private float spawnLimitXLeft = -22;
     private float spawnLimitXRight = 7;

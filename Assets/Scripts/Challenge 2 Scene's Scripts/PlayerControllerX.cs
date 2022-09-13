@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerControllerX : MonoBehaviour
 {
-    public GameObject dogPrefab;
+    [SerializeField] GameObject dogPrefab;
 
     // Update is called once per frame
     void Update()
